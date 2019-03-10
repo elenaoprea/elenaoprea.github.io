@@ -1,0 +1,255 @@
+body{  
+    background-color: #f6f5f3;
+    margin-left: 0;
+    margin-right: 0;
+    padding:0;
+    padding: 10px 10px 10px 10px;
+    font-family: Times, Courier, sans-serif;
+    font-size: 17px;
+    color:#696969;
+}
+
+#main{  
+    background-image: url(images/activity-bicycle-bike-276517.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#intro{
+    height:450px;   
+}
+
+h1{
+    font-size: 1.8em; 
+    margin-left:380px;
+    margin-top: 0px; 
+    text-shadow: 3px 2px white;  
+}
+
+#home{
+    font-size: 1.8em; 
+    margin-left:auto;
+    margin-right: auto; 
+    text-shadow: 3px 2px white;
+    text-align:center;
+}
+
+#bike{
+    transform: rotate(90deg);   
+}
+
+footer{
+    font-size: 1em;
+    background-color: black;
+    border-style: solid;
+    border-color: black;
+    color:#e6e6e6;
+    position: absolute;
+    right: 0;
+    bottom: 50;
+    left: 0;
+    padding: 1rem;   
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+footer #info{
+    float:left;   
+}
+
+footer #schedule{
+    float:right;
+}
+
+.one{
+    font-weight: bold;
+}
+
+a {
+    color:green;
+    text-decoration:none;
+}
+
+a: link{
+    color:green;
+    text-decoration:none;
+}
+
+a:visited{
+    color:green;
+    text-decoration: none;
+}
+a:hover{
+    color:#696969;
+    text-decoration:none;
+}
+
+.nav{
+   background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    color:#696969;
+    margin-right:20px;  
+    margin-left:20px;
+    line-height: 20px;
+    margin-top:10px;   
+    width: 80px;
+    
+}
+
+.nav:hover{
+    border-style: solid;
+    border-color: rgb(192,192,192);
+    color:#696969;
+}
+
+div.nav:nth-child(1){
+    margin-left:20px; 
+    width:200px;
+    float:left;
+    margin-top:0;
+}
+
+div.nav:nth-child(2){
+    margin-right:15px;  
+    margin-left:15px;
+    height:20px; 
+    margin-top:10px;
+}
+
+div.nav:nth-child(3){
+    margin-right:15px;  
+    margin-left:15px;
+    height:20px;
+    margin-top:10px;
+}
+
+div.nav:nth-child(4){
+    margin-right:15px;  
+    margin-left:15px;
+    height:20px;
+    margin-top:10px;
+}
+
+div.nav:nth-child(5){
+   margin-right:20px;  
+    margin-left:15px;
+    height:20px;
+    margin-top:10px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    margin=left:50px;
+    margin-right:50px;
+}
+
+#about{
+    border-color: #6ed3cf;
+    border-width: 2px;
+    border-style: dashed;
+    padding: 3px;
+    padding-left: 10px;
+    margin-right: 100px;
+    margin-left:100px;
+    min-height: 500px;
+    min-width: 500px;
+    text-align: center;
+    box-sizing: border-box; 
+    position: relative;
+     
+}
+
+.main{
+    width: 100%;
+    height: auto;
+}
+
+h2{
+    text-align:center;
+}
+
+table{
+    border-width: thin;
+    border-color: #696969;
+    border-style: dashed;
+    border-spacing: 0px;
+    border-collapse: collapse;
+    margin-right:auto;
+    margin-left:auto;
+    
+}
+
+td{ 
+    padding: 10px;
+    border-width: thin;
+    border-color: #696969;
+    border-style: dashed;
+    
+}
+
+th{
+    background-color: #6ed3cf;
+    padding: 10px;
+    text-align:center;
+    border-width: thin;
+    border-color: #696969;
+    border-style: dashed;
+    font-weight: bold;
+}
+
+.bikepart{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+input[type=text], select, textarea {
+  background-color: #f1f0ee;
+  width: 100%; 
+  padding: 10px;  
+  border-style: dashed; 
+  border-color: #6ed3cf;
+  border-radius: 5px; 
+  box-sizing: border-box; 
+  margin-top: 15px; 
+  margin-bottom: 15px;    
+}
+
+input[type=submit] {
+  background-color: #6ed3cf;
+  color: #f1f0ee;
+  padding: 16px;
+  border: none;
+  border-radius: 5px;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #696969;
+}
+
+.contact {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+li{
+    font-weight: bold;
+}
+
+.opinion{
+    font-weight:normal;
+    font-style: italic;
+}
+
+h3{
+    padding:10px;
+}
+
+ 
